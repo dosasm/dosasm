@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>微机原理与接口技术笔记</title>
+  <link rel="icon" href="https://gitee.com/dosasm/masm-tasm/raw/main/pics/asm.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script>
+    window.$docsify = {
+      name: '<span>微机笔记</span>',
+      repo: 'https://gitee.com/dosasm/dosasm/',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      plugins: []
+    }
+  </script>
+
+  <!-- support edit on gitee by https://docsify.js.org/#/write-a-plugin?id=edit-button -->
+  <script>
+    window.$docsify.plugins.push(
+      function (hook, vm) {
+        hook.beforeEach(
+          function (mdstr) {
+            const prefix = document.location.pathname.endsWith('/') ? '' : '..';
+            const markdownUrl = new URL(prefix + vm.route.file, document.location);
+            const editUrl = 'https://gitee.com/dosasm/dosasm/blob/main/' + vm.route.file;
+            return `[📝 EDIT DOCUMENT](${editUrl})\t[🎇MARKMAP](https://xsro.gitee.io/college-notes/markmap.html?md=${markdownUrl})\n` + mdstr;
+          }
+        );
+      }
+    );
+  </script>
+
+  <!-- support mermaid using https://docsify.js.org/#/markdown?id=supports-mermaid-->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    var num = 0;
+    mermaid.initialize({ startOnLoad: false });
+    window.$docsify.markdown =
+    {
+      renderer: {
+        code: function (code, lang) {
+          if (lang === "mermaid") {
+            return (
+              '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+            );
+          }
+          return this.origin.code.apply(this, arguments);
+        }
+      }
+    };
+  </script>
+
+  <!-- support katex by https://github.com/upupming/docsify-katex#usage-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+
+</body>
+</html>
