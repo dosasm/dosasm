@@ -28,10 +28,11 @@
       function (hook, vm) {
         hook.beforeEach(
           function (mdstr) {
-            const prefix = document.location.pathname.endsWith('/') ? '' : '..';
-            const markdownUrl = new URL(prefix + vm.route.file, document.location);
             const editUrl = 'https://gitee.com/dosasm/dosasm/blob/main/' + vm.route.file;
-            return `[📝 EDIT DOCUMENT](${editUrl})\t[🎇MARKMAP](https://xsro.gitee.io/college-notes/markmap.html?md=${markdownUrl})\n` + mdstr;
+            const prefix = document.location.pathname.endsWith('/') ? '' : '../';
+            const markmapUrl = new URL(prefix + 'markmap.html', document.location);
+            const markdownUrl = new URL(prefix + vm.route.file, document.location);  
+            return `[📝 EDIT DOCUMENT](${editUrl})\t[🎇MARKMAP](${markmapUrl}?md=${markdownUrl})\n` + mdstr;
           }
         );
       }
