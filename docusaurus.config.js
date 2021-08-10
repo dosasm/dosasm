@@ -108,7 +108,7 @@ module.exports = {
         docs: {
           path:'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [math],
+          remarkPlugins: [math,require('mdx-mermaid')],
           rehypePlugins: [katex],
           // Please change this to your repo.
           editUrl:
