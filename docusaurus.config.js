@@ -5,21 +5,21 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'DOSASM',
+  tagline: 'some references and tools for assembly in DOS. Dinosaurs are cool!',
+  url: 'https://dosasm.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dosasm', // Usually your GitHub org/user name.
+  projectName: 'dosasm', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'DosAsm',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/dosboxasm.svg',
       },
       items: [
         {
@@ -41,7 +41,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/dosasm/dosasm',
           label: 'GitHub',
           position: 'right',
         },
@@ -57,23 +57,23 @@ module.exports = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'References',
+              to: '/docs/reference',
+            },
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/dosasm',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              label: 'Gitee',
+              href: 'https://gitee.com/dosasm/',
+            }
           ],
         },
         {
@@ -84,13 +84,17 @@ module.exports = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
+              label: 'Docusaurus',
               href: 'https://github.com/facebook/docusaurus',
+            },
+            {
+              label: 'Js-Dos',
+              href: 'https://js-dos.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} DosAsm Project. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -108,13 +112,13 @@ module.exports = {
           rehypePlugins: [katex],
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/dosasm/dosasm/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/dosasm/dosasm/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
