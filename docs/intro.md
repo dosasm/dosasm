@@ -30,7 +30,7 @@ DosAsm试图整合DOS环境下汇编语言开发的工具说明和参考资料�
   - 插件受到[MASM-Code](https://marketplace.visualstudio.com/items?itemName=kaixa.masm-code)的启发，非常感谢原作者
   - 插件现在在[extension](https://github.com/dosasm/dosrun/tree/main/extension)目录下维护
 - [PlayGround](https://dosasm.github.io/dosrun): 使用react构建的在线编译运行调试汇编代码的在线webApp
-  - 托管在github pages: <https://dosasm.github.io/dosrun>和 gitee pages: <https://dosasm.gitee.io/react-app>
+  - 托管在github pages: <https://dosasm.github.io/dosrun>和 gitee pages: <https://dosasm.gitee.io/dosrun>
   - 在目录[react-app](https://github.com/dosasm/dosrun/tree/main/react-app)下维护
 
 ## 其他工具

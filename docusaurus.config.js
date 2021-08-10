@@ -36,7 +36,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://dosasm.gitee.io/react-app',
+          href: 'https://dosasm.gitee.io/dosrun',
           label: 'PlayGround',
           position: 'right',
         },

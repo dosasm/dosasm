@@ -7,7 +7,7 @@ sidebar_position: 2
 DosRun布置如下地址中，点击链接即可进入，借助JsDos实现单文件的汇编以及C语言操作
 
 - github pages: <https://dosasm.github.io/dosrun>
-- gitee pages: <https://dosasm.gitee.io/react-app>
+- gitee pages: <https://dosasm.gitee.io/dosrun>
 
 ## 注意事项
 
