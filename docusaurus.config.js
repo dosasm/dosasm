@@ -13,7 +13,8 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'dosasm', // Usually your GitHub org/user name.
-  projectName: 'dosasm', // Usually your repo name.
+  projectName: 'dosasm.github.io', // Usually your repo name.
+  trailingSlash:false,
   themeConfig: {
     navbar: {
       title: 'DosAsm',
