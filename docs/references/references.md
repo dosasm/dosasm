@@ -43,7 +43,7 @@ sidebar_position: 1
 
 ### 常用的16位系统模拟软件
 
-1. [dosbox](www.dosbox.com):主要面向游戏
+1. [dosbox](https://www.dosbox.com ):主要面向游戏
    1. [dosbox-x](https://github.com/joncampbell123/dosbox-x):dosbox衍生品
    2. [dosbox-staging](https://dosbox-staging.github.io/):dosbox衍生品
 2. Wengier Wu's [vdosplus](http://www.vdosplus.org/)：似乎是面向商用
@@ -52,7 +52,7 @@ sidebar_position: 1
 
 ## 常用
 
-- [dosox官网](www.dosbox.com)
+- [dosox官网](https://www.dosbox.com )
   - [dosbox 命令行参数的文档](https://www.dosbox.com/wiki/Usage)
   - [dosbox 命令文档](https://www.dosbox.com/wiki/Commands)
 - [vscode官网](https://code.visualstudio.com)
