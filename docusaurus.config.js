@@ -5,8 +5,8 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'DOSASM',
-  tagline: 'some references and tools for assembly in DOS. Dinosaurs are cool!',
+  title: 'DosAsm',
+  tagline: '一些Dos环境下的汇编学习的工具和参考',
   url: 'https://dosasm.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -20,22 +20,22 @@ module.exports = {
       title: 'DosAsm',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/dosboxasm.svg',
+        src: 'my-img/dosboxasm.svg',
       },
       items: [
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '教程',
         },
         {
           type: 'doc',
           docId: 'reference',
           position: 'left',
-          label: 'Reference',
+          label: '参考',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://dosasm.gitee.io/dosrun',
           label: 'PlayGround',

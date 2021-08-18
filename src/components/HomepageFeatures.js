@@ -4,32 +4,33 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Powered by Docusaurus',
+    Svg: require('../../static/my-img/航天飞机.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This website is powered by Docusaurus.Dinosaurs are cool!
+        This website use icons from 
+        <a href='https://www.iconfont.cn/illustrations/detail?spm=a313x.7781069.1998910419.d9df05512&cid=24963' > iconfont.cn </a> 
+        
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Notes and Tools',
+    Svg: require('../../static/my-img/横向漂浮宇航员.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Contains some tools and notes for learning ASM in Dos
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Open',
+    Svg: require('../../static/my-img/星系.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       All works are open on Github and Gitee.
+       The project still in dev. There are many bugs and errors
       </>
     ),
   },
