@@ -13,7 +13,7 @@ DosAsm试图整合DOS环境下汇编语言开发的工具说明和参考资料�
 
 该项目为本pages页的源码网站，使用[docusaurus](https://docusaurus.io/)构建。项目包括：
 
-- [《微型计算机原理及接口技术》课程笔记](notes-njupt/总览.md)
+- [《微型计算机原理及接口技术》课程笔记](notes-njupt/00_总览.md)
 - [关于DOS系统、汇编语言的一些参考](reference.md)
 - DOSRUN等工具的参考文档
 
