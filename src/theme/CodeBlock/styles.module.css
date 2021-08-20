@@ -44,6 +44,20 @@
   transition: opacity 200ms ease-in-out;
 }
 
+.runButton {
+  margin-top:30px;
+  background: rgba(58, 162, 223, 0.801);
+  border-radius: var(--ifm-global-radius);
+  color: var(--ifm-color-white);
+  opacity: 1;
+  user-select: none;
+  padding: 0.4rem 0.5rem;
+  position: absolute;
+  right: calc(var(--ifm-pre-padding) / 2);
+  top: calc(var(--ifm-pre-padding) / 2);
+  transition: opacity 200ms ease-in-out;
+}
+
 .codeBlockTitle:hover + .codeBlockContent .copyButton,
 .codeBlockContent:hover > .copyButton,
 .copyButton:focus {

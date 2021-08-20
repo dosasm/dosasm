@@ -182,6 +182,24 @@ export default function CodeBlock({
     setTimeout(() => setShowCopied(false), 2000);
   };
 
+  let fileUrl="";
+  let runButton=<></>;
+  if(metastring && metastring.includes('runable')){
+    fileUrl=new URL('https:\\dosasm.github.io/dosrun');
+    fileUrl.searchParams.set('env','MASM_6.11');
+    fileUrl.searchParams.set('exec','run');
+    fileUrl.searchParams.set('code',code);
+    runButton=<a
+    type="button"
+    aria-label="Run in new tab"
+    href={fileUrl}
+    target="_blank"
+    className={clsx(styles.runButton, 'clean-btn')}
+  >
+  Run
+  </a>
+  }
+
   return (
     <Highlight
       {...defaultProps}
@@ -233,7 +251,7 @@ export default function CodeBlock({
                 })}
               </code>
             </pre>
-
+{runButton}
             <button
               ref={button}
               type="button"

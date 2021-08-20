@@ -35,6 +35,12 @@ module.exports = {
           position: 'left',
           label: '参考',
         },
+        {
+          type: 'doc',
+          docId: 'notes-njupt/总览',
+          position: 'left',
+          label: '微机笔记',
+        },
         {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://dosasm.gitee.io/dosrun',
@@ -86,7 +92,7 @@ module.exports = {
             },
             {
               label: 'Docusaurus',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://docusaurus.io/',
             },
             {
               label: 'Js-Dos',
