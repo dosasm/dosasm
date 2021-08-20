@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: MASM/TASM
 ---
 
 # vscode汇编插件
