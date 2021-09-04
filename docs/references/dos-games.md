@@ -1,6 +1,6 @@
 ---
-title: DOS游戏
-sidebar_position: 7
+sidebar_position: 5
+title: DOS游戏整理
 ---
 
 # :video_game:使用dosbox玩游戏

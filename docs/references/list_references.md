@@ -1,8 +1,24 @@
 ---
-sidebar_position: 1
+sidebar_position: 13
 ---
 
 # 参考资料及链接
+
+## 运行调试代码相关
+
+### 常用汇编语言集成环境
+
+- [SASM](https://dman95.github.io/SASM/) (SimpleASM) - simple Open Source crossplatform IDE for NASM, MASM, GAS, FASM assembly languages. SASM has syntax highlighting and debugger. The program works out of the box and is great for beginners to learn assembly language.
+- [ASM80](https://www.asm80.com/ ) is an Integrated Development Environment (IDE), aimed on assembler development for 8bit microprocessors, mainly 8080, 8085, Z80 and 6502.
+- [GUI Turbo Assembler](https://sourceforge.net/projects/guitasm8086/) is an essential Multilingual Integrated Development Environment for Assembly language.
+- masmplus：[百度百科](https://baike.baidu.com/item/MASMPlus/4932305)
+- RadASM、[RADASM2](https://github.com/mrfearless/RadASM2)
+
+#### 微机相关
+
+- （调用MASM）[masm](http://xiazai.sogou.com/detail/34/0/111972713791806697.html?e=1970)教学用的一个软件
+- （调用TASM 5.0）[轻松汇编QASM](http://xiazai.sogou.com/detail/34/16/-426173911179108655.html?e=1970):32位程序
+- [微机接口虚拟实验系统](http://www.vlab.cn/vlab/down.php)集成开发环境
 
 ## VSCode汇编插件及仓库地址
 
@@ -25,30 +41,6 @@ sidebar_position: 1
    1. [language-configuration-guide](https://code.visualstudio.com/api/language-extensions/language-configuration-guide)
    2. [syntax-highlight-guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector)
    3. [macromates.com manual](https://macromates.com/manual/en/language_grammars)
-
-## 运行调试代码相关
-
-### 常用汇编语言集成环境
-
-- 带有图形界面可以在64位下运行的[GUI Turbo Assembler (TASM)](https://sourceforge.net/projects/guitasm8086/)
-- [masmplus](http://www.aogosoft.com/masmplus/)
-- [SASM](https://dman95.github.io/SASM/english.html)
-- RadASM
-
-#### 微机相关
-
-- （调用MASM）[masm](http://xiazai.sogou.com/detail/34/0/111972713791806697.html?e=1970)教学用的一个软件
-- （调用TASM 5.0）[轻松汇编QASM](http://xiazai.sogou.com/detail/34/16/-426173911179108655.html?e=1970):32位程序
-- [微机接口虚拟实验系统](http://www.vlab.cn/vlab/down.php)集成开发环境
-
-### 常用的16位系统模拟软件
-
-1. [dosbox](https://www.dosbox.com ):主要面向游戏
-   1. [dosbox-x](https://github.com/joncampbell123/dosbox-x):dosbox衍生品
-   2. [dosbox-staging](https://dosbox-staging.github.io/):dosbox衍生品
-2. Wengier Wu's [vdosplus](http://www.vdosplus.org/)：似乎是面向商用
-3. Jos Schaars' [vdos](http://vdos.info/)
-4. [msdos player](http://takeda-toshiya.my.coocan.jp/msdos/index.html):在终端中运行模拟环境
 
 ## 常用
 
