@@ -76,7 +76,7 @@ test.exe
 
 - 由于DOS系统的文件系统有时会不支持现在电脑的文件路径，所以插件有时会对文件进行复制操作，将文件复制挂载到可以操作的文件目录，通常在打开的模拟器中是以T.ASM的形式呈现。也就是说此时的T.ASM文件是编辑器文件的副本。
 - 也可以使用通过设置中的`masmtasm.ASM.emulator`选项，设置使用dosbox（目前来看应该是最稳定的DOS模拟器，很多都是基于它的），通过`masmtasm.ASM.MASMorTASM`可以使用TASM汇编工具
-- [常见汇编命令](../references/ASM_commands.md)
+- [常见汇编命令](../references/x86_asm-commands.md)
 - [DOSBox自建命令](https://www.dosbox.com/wiki/Commands)，也可以在JSDos中使用
 
 </details>
