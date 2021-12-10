@@ -15,7 +15,7 @@ DosAsm试图整合DOS环境下汇编语言开发的工具说明和参考资料�
 
 - DOSRUN等工具的文档
 - [《微型计算机原理及接口技术》课程笔记](notes-njupt/00_总览.md)
-- [关于DOS系统、汇编语言的一些参考](reference.md)
+- [关于DOS系统、汇编语言的一些参考](references/README.md)
 
 ## DOSRUN
 

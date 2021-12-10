@@ -31,7 +31,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'reference',
+          docId: 'references/README',
           position: 'left',
           label: '参考',
         },
@@ -66,7 +66,7 @@ module.exports = {
             },
             {
               label: 'References',
-              to: '/docs/reference',
+              to: '/docs/references/README',
             },
           ],
         },
