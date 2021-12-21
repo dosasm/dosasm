@@ -13,7 +13,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'dosasm', // Usually your GitHub org/user name.
-  projectName: 'dosasm.github.io', // Usually your repo name.
+  projectName: 'dosasm.github.io', // Usually your repo name but I use this for deploy
   trailingSlash:false,
   themeConfig: {
     navbar: {
@@ -43,7 +43,7 @@ module.exports = {
         },
         {to: '/blog', label: '博客', position: 'left'},
         {
-          href: 'https://dosasm.gitee.io/dosrun',
+          href: 'https://dosasm.github.io/dosrun',
           label: 'PlayGround',
           position: 'right',
         },

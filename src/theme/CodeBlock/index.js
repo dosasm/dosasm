@@ -13,6 +13,8 @@ import usePrismTheme from '@theme/hooks/usePrismTheme';
 import Translate, {translate} from '@docusaurus/Translate';
 import styles from './styles.module.css';
 import {useThemeConfig, parseCodeBlockTitle} from '@docusaurus/theme-common';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
 const highlightLinesRangeRegex = /{([\d,-]+)}/;
 
 const getHighlightDirectiveRegex = (
@@ -182,10 +184,11 @@ export default function CodeBlock({
     setTimeout(() => setShowCopied(false), 2000);
   };
 
-  let fileUrl="";
   let runButton=<></>;
   if(metastring && metastring.includes('runable')){
-    fileUrl=new URL('https:\\dosasm.github.io/dosrun');
+    const {siteConfig, siteMetadata} = useDocusaurusContext();
+    let fileUrl=new URL(siteConfig.url);
+    fileUrl.pathname="dosrun/"
     fileUrl.searchParams.set('env','MASM_6.11');
     fileUrl.searchParams.set('exec','run');
     fileUrl.searchParams.set('code',code);

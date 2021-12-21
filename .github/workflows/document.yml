@@ -46,7 +46,7 @@ jobs:
           CURRENT_BRANCH: docusaurus
         run: |
           git config --global user.email "xsro@foxmail.com"
-          git config --global user.name "Chen Liu"
+          git config --global user.name "dosasm"
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
@@ -55,3 +55,14 @@ jobs:
             npm i
           fi
           npm run deploy
+      - name: build for gitee
+        run: |
+          node develop/gitee.js
+          yarn build
+      - name: Deploy for gitee(need sync manually)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gitee-pages
+          force_orphan: true
