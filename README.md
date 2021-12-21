@@ -1,4 +1,11 @@
-# Website
+# DOSASM Website
+
+This is website for docs, notes for DOSASM deployed in [github](https://dosasm.github.io) and [gitee](https://dosasm.gitee.io).
+
+for notes, go to following link
+
+- <https://dosasm.github.io/docs/notes-njupt/总览>
+- <https://dosasm.gitee.io/docs/notes-njupt/总览>
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
