@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdosasm=self.webpackChunkdosasm||[]).push([[2535],{45641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u52a0\u6cb9\uff0c\u5e72\u996d\u4eba","permalink":"/blog/initDocs"},{"title":"Welcome","permalink":"/blog/welcome"},{"title":"Hello","permalink":"/blog/hello-world"},{"title":"Hola","permalink":"/blog/hola"}]}')}}]);

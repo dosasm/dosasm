@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdosasm=self.webpackChunkdosasm||[]).push([[2908],{76479:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/dosasm","name":"dosasm","count":1,"permalink":"/blog/tags/dosasm"}')}}]);
